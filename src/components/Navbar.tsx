@@ -65,20 +65,20 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
-              to="/about"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"
-              onClick={() => setIsOpen(false)}
-            >
-              About
-            </Link>
-            <Link
-              to="/services"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"
-              onClick={() => setIsOpen(false)}
-            >
-              Services
-            </Link>
+            {/*<Link*/}
+            {/*  to="/about"*/}
+            {/*  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"*/}
+            {/*  onClick={() => setIsOpen(false)}*/}
+            {/*>*/}
+            {/*  About*/}
+            {/*</Link>*/}
+            {/*<Link*/}
+            {/*  to="/services"*/}
+            {/*  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"*/}
+            {/*  onClick={() => setIsOpen(false)}*/}
+            {/*>*/}
+            {/*  Services*/}
+            {/*</Link>*/}
             <Link
               to="/schedule"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"
@@ -86,13 +86,13 @@ const Navbar = () => {
             >
               Schedule
             </Link>
-            <Link
-              to="/contact"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"
-              onClick={() => setIsOpen(false)}
-            >
-              Contact
-            </Link>
+            {/*<Link*/}
+            {/*  to="/contact"*/}
+            {/*  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"*/}
+            {/*  onClick={() => setIsOpen(false)}*/}
+            {/*>*/}
+            {/*  Contact*/}
+            {/*</Link>*/}
             <Link
                 to="/clientportal"
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"
