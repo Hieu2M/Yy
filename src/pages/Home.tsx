@@ -29,7 +29,7 @@ const Home = () => {
                 Professional, compassionate therapy services to help you navigate life's challenges and achieve emotional well-being.
               </p>
               <Link
-                  to="/schedule"
+                  to="https://intakeq.com/booking/ejjbvl"
                   className="inline-flex items-center bg-teal-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-md hover:bg-teal-700 transition-colors text-sm sm:text-base"
               >
                 Schedule a Consultation
@@ -88,7 +88,7 @@ const Home = () => {
               Schedule your consultation today and begin your journey to wellness.
             </p>
             <Link
-                to="/schedule"
+                to="https://intakeq.com/booking/ejjbvl"
                 className="inline-flex items-center bg-white text-teal-600 px-4 sm:px-6 py-2 sm:py-3 rounded-md hover:bg-gray-100 transition-colors text-sm sm:text-base"
             >
               Get in Touch
