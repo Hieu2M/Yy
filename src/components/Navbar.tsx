@@ -29,12 +29,12 @@ const Navbar = () => {
             {/*<Link to="/about" className="text-gray-700 hover:text-teal-600 transition-colors">*/}
             {/*  About*/}
             {/*</Link>*/}
-            <Link to="/schedule" className="text-gray-700 hover:text-teal-600 transition-colors">
+            <Link to="https://intakeq.com/booking/ejjbvl" className="text-gray-700 hover:text-teal-600 transition-colors">
               Schedule
             </Link>
-            <Link to="/clientportal" className="text-gray-700 hover:text-teal-600 transition-colors">
-              ClientPortal
-            </Link>
+            {/*<Link to="/clientportal" className="text-gray-700 hover:text-teal-600 transition-colors">*/}
+            {/*  ClientPortal*/}
+            {/*</Link>*/}
             {/*<Link to="/contact" className="text-gray-700 hover:text-teal-600 transition-colors">*/}
             {/*  Contact*/}
             {/*</Link>*/}
@@ -95,13 +95,13 @@ const Navbar = () => {
             {/*>*/}
             {/*  Contact*/}
             {/*</Link>*/}
-            <Link
-                to="/clientportal"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"
-                onClick={() => setIsOpen(false)}
-            >
-              ClientPortal
-            </Link>
+            {/*<Link*/}
+            {/*    to="/clientportal"*/}
+            {/*    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50"*/}
+            {/*    onClick={() => setIsOpen(false)}*/}
+            {/*>*/}
+            {/*  ClientPortal*/}
+            {/*</Link>*/}
           </div>
         </div>
       )}

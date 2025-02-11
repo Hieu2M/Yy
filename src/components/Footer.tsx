@@ -17,24 +17,24 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>(253) 000-0000</span>
+                <span>(559) 869-8689 (text only)</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
-                <span>contact@gmail.com</span>
+                <span>contact@healthymindscare.com</span>
               </div>
-              <div className="flex items-center">
-                <MapPin className="h-5 w-5 mr-2" />
-                <span>123 WA 98000</span>
-              </div>
+              {/*<div className="flex items-center">*/}
+              {/*  <MapPin className="h-5 w-5 mr-2" />*/}
+              {/*  <span>123 WA 98000</span>*/}
+              {/*</div>*/}
             </div>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Hours (Virtual)</h3>
             <div className="space-y-2">
-              <p>Monday - Friday: AM - PM</p>
-              <p>Saturday: AM - PM</p>
-              <p>Sunday: Closed</p>
+              <p>Monday: 8 AM - 2 PM</p>
+              {/*<p>Saturday: AM - PM</p>*/}
+              {/*<p>Sunday: Closed</p>*/}
             </div>
           </div>
         </div>
